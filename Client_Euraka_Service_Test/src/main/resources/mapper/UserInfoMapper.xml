@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fhl.mapper.UserInfoMapper">
+    <!--    <resultMap id="" type=""></resultMap>-->
+
+    <insert id="insertUserInfo" parameterType="UserInfo">
+
+        INSERT  scp_userinfo(user_id,user_name,user_pwd,user_age)  values (#{userId},#{userName},#{userPwd},#{userAge})
+
+    </insert>
+
+
+</mapper>

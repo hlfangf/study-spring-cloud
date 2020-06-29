@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: test
+
+
+
+---
+server:
+  port: 8070
+spring:
+  profiles: test
+  application:
+    name: zuulRestConsumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "hystrix.stream"
+#zuul:
+#  routes:
+#    provider: /p/**
+
+
+
+
+
+

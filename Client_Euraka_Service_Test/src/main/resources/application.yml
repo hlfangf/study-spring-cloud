@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: provider
+
+
+---
+server:
+  port: 8081
+spring:
+
+  profiles: test
+
+  datasource:
+    username: root
+    password: fang2013hua2013
+    url: jdbc:mysql://localhost:3306/spring_cloud_project?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.fhl.po
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka
+  instance:
+    prefer-ip-address: true
+
+
+
+
+
+
