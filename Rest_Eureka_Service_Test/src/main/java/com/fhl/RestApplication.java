@@ -24,23 +24,6 @@ public class RestApplication {
 
 
 
-//    /**
-//     * 注入Rest对象
-//     * @return 返回Rest对象
-//     */
-//    @Bean
-//    public ServletRegistrationBean ServletRegistrationBeangetServlet() {
-//
-//        HystrixMetricsStreamServlet streamServlet =new HystrixMetricsStreamServlet();
-//
-//        ServletRegistrationBean registrationBean =new ServletRegistrationBean(streamServlet);
-//
-//        registrationBean.setLoadOnStartup(1);
-//        registrationBean.addUrlMappings("/hystrix.stream");
-//        registrationBean.setName("HystrixMetricsStreamServlet");
-//        return registrationBean;
-//
-//    }
 
 
 }

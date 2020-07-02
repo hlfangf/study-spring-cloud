@@ -5,14 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Test_Euraka</artifactId>
+    <artifactId>Test_Eureka</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>Server_Euraka_Service_Test</module>
-        <module>Client_Euraka_Service_Test</module>
-        <module>Rest_Euraka_Service_Test</module>
-        <module>Common_Euraka_Service_Test</module>
+        <module>Server_Eureka_Service_Test</module>
+        <module>Client_Eureka_Service_Test</module>
+        <module>Rest_Eureka_Service_Test</module>
+        <module>Common_Eureka_Service_Test</module>
+        <module>Auth_Eureka_Service_Test</module>
     </modules>
     <name>Test_Maven Maven Webapp</name>
 

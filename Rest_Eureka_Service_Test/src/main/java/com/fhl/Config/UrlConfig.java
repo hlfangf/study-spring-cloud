@@ -13,6 +13,6 @@ import org.springframework.stereotype.Component;
 @Setter
 public class UrlConfig {
 
-    @Value("${clientEurakaServiceUrlPrefix}"+"${clientEurakaService.insertUserInfoUrlSuffix}")
+    @Value("${clientEurekaServiceUrlPrefix}"+"${clientEurekaService.insertUserInfoUrlSuffix}")
     private String insertUserInfoUrl;
 }

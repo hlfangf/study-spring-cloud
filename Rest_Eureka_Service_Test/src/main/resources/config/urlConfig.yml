@@ -1,0 +1,4 @@
+clientEurekaServiceUrlPrefix: "http://provider/"
+
+clientEurekaService:
+    insertUserInfoUrlSuffix: "inserUserInfo"

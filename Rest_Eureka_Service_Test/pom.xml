@@ -3,18 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>Test_Euraka</artifactId>
+        <artifactId>Test_Eureka</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Rest_Euraka_Service_Test</artifactId>
+    <artifactId>Rest_Eureka_Service_Test</artifactId>
     <dependencies>
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>Common_Euraka_Service_Test</artifactId>
+            <artifactId>Common_Eureka_Service_Test</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
